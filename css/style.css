@@ -1,8 +1,10 @@
-/* Custom CSS
+Custom CSS
 body,
 html {
     height: 100%;
 }
+
+
 .bg-gradient-primary-to-secondary {
     background: #1e30f3;
     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
@@ -13,7 +15,9 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.bg-color-primary{
+ background-color:#202938 !
+}
 .rounded-4 {
     border-radius: 1rem !important;
 }
@@ -109,4 +113,4 @@ html {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-} */
+}
