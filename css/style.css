@@ -4,8 +4,7 @@ html {
     height: 100%;
 }
 
-
-.bg-gradient-primary-to-secondary {
+/* .bg-gradient-primary-to-secondary {
     background: #1e30f3;
     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
@@ -51,7 +50,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
 }
-
+ */
 
 
 @media (min-width: 576px) {
@@ -113,4 +112,9 @@ html {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.nav-link::hover{
+text-decoration: underline;
+color: #ffc107;
 }
