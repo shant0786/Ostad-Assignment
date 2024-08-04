@@ -114,7 +114,7 @@ html {
     100% { transform: rotate(360deg); }
 }
 
-.nav-link::hover{
-text-decoration: underline;
+.nav-link:hover,.dropdown-item:hover{
 color: #ffc107;
 }
+
