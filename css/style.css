@@ -4,91 +4,6 @@ html {
     height: 100%;
 }
 
-/* .bg-gradient-primary-to-secondary {
-    background: #1e30f3;
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-}
-
-.text-gradient {
-    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.bg-color-primary{
- background-color:#202938 !
-}
-.rounded-4 {
-    border-radius: 1rem !important;
-}
-
-.feature {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.5rem;
-}
-
-.profile {
-    background-image:url("../assets/profile-back.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-    position: relative;
-    height: 75vw;
-    width: 75vw;
-    margin-top: 5vw;
-    max-height: 40rem;
-    max-width: 40rem;
-}
-.profile .profile-img {
-    height: 80vw;
-    max-height: 45rem;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
- */
-
-
-@media (min-width: 576px) {
-    .profile {
-        height: 60vw;
-        width: 60vw;
-    }
-    .profile .profile-img {
-        height: 65vw;
-    }
-}
-@media (min-width: 768px) {
-    .profile {
-        height: 50vw;
-        width: 50vw;
-    }
-    .profile .profile-img {
-        height: 55vw;
-    }
-}
-@media (min-width: 992px) {
-    .profile {
-        height: 40vw;
-        width: 40vw;
-    }
-    .profile .profile-img {
-        height: 45vw;
-    }
-}
-@media (min-width: 1200px) {
-    .profile {
-        height: 35vw;
-        width: 35vw;
-    }
-    .profile .profile-img {
-        height: 40vw;
-    }
-}
 
 #loading-div{
     display: flex;
@@ -117,4 +32,21 @@ html {
 .nav-link:hover,.dropdown-item:hover{
 color: #ffc107;
 }
+
+.btn-custom{
+ transform: scale(1);
+ background-color: rgb(34, 194, 194);
+   box-shadow: 8px 13px 117px -28px rgba(0,0,0,0.61);
+-webkit-box-shadow: 8px 13px 117px -28px rgba(0,0,0,0.61);
+-moz-box-shadow: 8px 13px 117px -28px rgba(0,0,0,0.61);
+transition: all 0.100s linear;
+}
+.btn-custom:active,#btn-3:visited{
+    transform: scale(0.9);
+    background-color: rgb(181, 243, 238);
+   box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
+-webkit-box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
+-moz-box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
+}
+
 
