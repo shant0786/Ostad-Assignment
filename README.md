@@ -11,11 +11,11 @@ building a template using HTML,CSS, Bootstrap
 2.  Create 10 buttons by Bootstrap Each button should have different colors and properties. &#x2714;
 3.  Create a card. &#x2714;
 4.  Create some form using form-group bootstrap class.
-5.  Create some list with list-group bootstrap class.
+5.  Create some list with list-group bootstrap class. 
 6.  Create a navbar with Bootstrap &#x2714;
 7.  Create a progress-bar with Bootstrap.
 8.  Create a pagination with Bootstrap.
-9.  Create a table with Bootstrap.
+9.  Create a table with Bootstrap. &#x2714;
 10. Create a dropdown with Bootstrap &#x2714;
 
 <!-- Symbols = &#x2714;, &#10006; || &#10062; &#9989;  -->
