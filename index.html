@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	</head>
 
-<body class="d-flex flex-column bg-body-secondary">
+<body class="d-flex flex-column bg-body-secondary overflow-x-scroll">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light sticky-top">
 			<div class="container px-5 bg-white py-4 rounded-2">
@@ -282,7 +282,62 @@
 							<!-- list and bar section end  -->
 							</section>
 							<section>
-								<div class="container bg-white p-5 my-2">
+								<!-- FORM SECTION start  -->
+								<div class="container bg-white p-5 my-2 rounded-2">
+									<form>
+										<div class="ms-5 ">
+											<div class="form-group row my-3 mx-2">
+												<label for="name" class="col-sm-4 ps-5 fw-semibold text-black-50 fs-5 col-form-label">Your
+													Fullname: </label>
+												<div class="col-sm-6">
+													<input type="text" class="form-control w-100 h-100" id="name" placeholder="Ex: John Smith">
+												</div>
+											</div>
+								
+											<div class="form-group row my-3 mx-2">
+												<label for="email" class="col-sm-4 ps-5 fw-semibold text-black-50 fs-5 col-form-label">Your Email address:
+												</label>
+												<div class="col-sm-6">
+													<input type="email" class="form-control w-100 h-100" id="email" placeholder="john@exap.io">
+												</div>
+											</div>
+								
+											<div class="form-group row my-3 mx-2">
+												<label for="number" class="col-sm-4 ps-5 fw-semibold text-black-50 fs-5 col-form-label">Your Phone number:
+												</label>
+												<div class="col-sm-6">
+													<input type="number" class="form-control w-100 h-100" id="number" placeholder="+88018-8554400">
+												</div>
+											</div>
+								
+											<div class="form-group row my-3 mx-2">
+												<label class="col-sm-4 ps-5 fw-semibold text-black-50 fs-5" for="options">Select a topic</label>
+												<div class="col-sm-6">
+													<select id="options" class="form-control w-100 h-100">
+														<option selected>Choose a option</option>
+														<option>Topic 1</option>
+														<option>Topic 2</option>
+														<option>Topic 3</option>
+														<option>Topic 4</option>
+													</select>
+												</div>
+											</div>
+								
+											<div class="form-group row my-3 mx-2">
+												<label for="textarea" class="col-sm-4 ps-5 fw-semibold text-black-50 fs-5">Your thoughts
+													about us: </label>
+												<div class="col-sm-6">
+													<textarea type="text" class="form-control w-100 h-100" id="textarea"
+														placeholder=" write about us..."></textarea>
+												</div>
+											</div>
+								
+											<div class="form-group row my-4 d-flex flex-column align-items-center mx-3">
+												<button type="submit" class="btn btn-primary col-sm-4 col-md-2 col-6 fw-semibold text-black-50 fs-5">Submit
+													now</button>
+											</div>
+										</div>
+									</form>
 								</div>
 							</section>
 
