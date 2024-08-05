@@ -44,9 +44,9 @@ transition: all 0.100s linear;
 .btn-custom:active,#btn-3:visited{
     transform: scale(0.9);
     background-color: rgb(181, 243, 238);
+>>>>>>> 59a320b21cfd6f0f52c187957167cfe702e1bcc0
    box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
 -webkit-box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
 -moz-box-shadow: 1px 12px 5px -6px rgba(0,0,0,0.71);
 }
-
 
