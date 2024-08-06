@@ -5,6 +5,8 @@ html {
 } */
 
 
+
+
 #loading-div{
     display: flex;
     justify-content: center;
@@ -30,7 +32,11 @@ html {
 }
 
 .nav-link:hover,.dropdown-item:hover{
-color: #ffc107;
+ background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .btn-custom{
@@ -52,4 +58,21 @@ transition: all 0.100s linear;
 .progress,.progress-bar{
     height: 30px;
     border-radius: 100px;
+}
+
+
+
+.bg-warning {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+.text-warning {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: all 0.1s linear;
 }
