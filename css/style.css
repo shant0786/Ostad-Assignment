@@ -72,3 +72,7 @@ transition: all 0.100s linear;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.card:hover{
+    transform: translateY(-10px);
+    transition: all 0.1s linear;
+}
