@@ -15,7 +15,7 @@ building a template using HTML,CSS, Bootstrap
 5.  Create some list with list-group bootstrap class. &#x2714;
 6.  Create a navbar with Bootstrap &#x2714;
 7.  Create a progress-bar with Bootstrap.&#x2714;
-8.  Create a pagination with Bootstrap.
+8.  Create a pagination with Bootstrap.&#x2714;
 9.  Create a table with Bootstrap. &#x2714;
 10. Create a dropdown with Bootstrap &#x2714;
 
