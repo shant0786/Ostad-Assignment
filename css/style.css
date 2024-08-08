@@ -74,5 +74,6 @@ transition: all 0.100s linear;
 }
 .card:hover{
     transform: translateY(-10px);
-    transition: all 0.1s linear;
+    transition: all 0.2s ease-out;
+
 }
