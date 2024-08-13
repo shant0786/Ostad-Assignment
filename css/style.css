@@ -81,3 +81,57 @@ html {
   transform: translateY(-10px);
   transition: all 0.2s ease-out;
 }
+
+#btn-1:hover,
+#btn-1:active {
+  transition: all 0.8s linear;
+  transform: rotate(360deg);
+}
+#btn-2:hover,
+#btn-2:active {
+  transition: all 00.8s linear;
+  transform: translateX(10px);
+}
+#btn-3:hover,
+#btn-3:active {
+  transition: all 0.81s linear;
+  transform: translateY(-10px);
+}
+#btn-4:hover,
+#btn-4:active {
+  transition: all 0.81s linear;
+  transform: scaleX(1.2);
+}
+#btn-5:hover,
+#btn-5:active {
+  transition: all 0.4s linear;
+  transform: scaleX(0.8);
+}
+#btn-6:hover,
+#btn-6:active {
+  transition: all 0.5s linear;
+  transform: scale(1.2) rotate(8deg);
+}
+.btn {
+  transition: all 0.5s linear;
+}
+#btn-7:hover,
+#btn-7:active {
+  transform: scale(1.5) rotate(360deg);
+}
+#btn-8:hover,
+#btn-8:active {
+  animation: btnan 02s infinite;
+}
+
+@keyframes btnan {
+  20% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.2) rotate(30deg);
+  }
+  100% {
+    transform: scale(1.2) rotate(-30deg);
+  }
+}
